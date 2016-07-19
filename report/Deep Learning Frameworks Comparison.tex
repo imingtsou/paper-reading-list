@@ -1,0 +1,15 @@
+\documentclass{article}
+\begin{document}
+\section{Comparative Study of Deep Learning Software Frameworks}
+Applications: LeNet, AlexNet, Stacked autoencoders, LSTM.
+
+Results:
+
+Torch is fastest even on every condition. TensorFlow does well on CPU (except on Stacked autoencoders) but does worst on GPU. Theano does pretty good with GPU, even on some special applications with CPU. On LSTM, Theano is better on GPU while Torch is better on CPU.
+
+Comments:
+
+This comparison is based on single node, including several mainly used frameworks (Torch, TensorFlow, Theano, Caffe, etc). According to the results of the four applications, Torch does the best while Theano follows. TensorFlow, which attracts most attention, doesn't perform well on GPU.
+
+If we want to get further results, we should compare them on distributed clusters and use the latest version. This paper is submitted on March 2016, and during the four months, I do believe the frameworks especially TensorFlow evolves a lot.
+\end{document}
