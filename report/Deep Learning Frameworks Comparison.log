@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 JUL 2016 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 JUL 2016 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -44,7 +44,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 16.
 
-Overfull \hbox (5.23216pt too wide) in paragraph at lines 58--59
+Overfull \hbox (39.1118pt too wide) in paragraph at lines 42--67
+[][] 
+ []
+
+
+Overfull \hbox (5.23216pt too wide) in paragraph at lines 70--71
 \OT1/cmr/m/n/10 declar-a-tive and declar-a-tive ex-pres-sions; sym-bolic in dec
 lar-ing com-pu-ta-tion graphs
  []
@@ -56,7 +61,7 @@ lar-ing com-pu-ta-tion graphs
 Here is how much of TeX's memory you used:
  212 strings out of 493089
  2550 string characters out of 6134842
- 62199 words of memory out of 5000000
+ 63199 words of memory out of 5000000
  3780 multiletter control sequences out of 15000+600000
  5158 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -66,7 +71,7 @@ Here is how much of TeX's memory you used:
 dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Deep Learning Frameworks Comparison.pdf" (2 pages, 58972 byt
+Output written on "Deep Learning Frameworks Comparison.pdf" (2 pages, 59202 byt
 es).
 PDF statistics:
  27 PDF objects out of 1000 (max. 8388607)
