@@ -52,4 +52,14 @@ API & R, Python, etc & Python &  \\
 Popular & 51 contributors & 40 contributors &  \\
 \hline
 \end{tabular}
+
+\section{Framework Discussion}
+\subsection{MXNet}
+MXNet is a distributed deep learning framework that became available in 2015. It was developed with collaborators from several institutions, including CMU, University of Washington, and Microsoft. It currently interfaces with C++, Python, R, Scala, Matlab, Javascript, Go, and Julia. MXNet supports both declarative and declarative expressions; symbolic in declaring computation graphs with higher-level abstractions like convolutional layers, and imperative in the ability to direct tensor computation and control flow [1]. Data parallelism is supported by default, and it also seems possible to build with model parallelism. Distributed execution in MXNet generally follows the parameter server model, with parallelism and data consistency managed at two levels: intra-worker and inter-worker. Devices within a single worker machine maintain synchronous consistency on its parameters. Inter-worker data consistency can either be synchronous, where gradients over all workers are aggregated before proceeding, or asynchronous, where each worker independently updates parameters. This trade-off between performance and convergence speed is left as an option to the user. The actual handling of server updates and requests is pushed down to MXNet's dependency engine, which schedules all operations and performs resource management. Results from MXNet's own scaling benchmarking, using Googlenet, show good scaling from 1 to 10 machines [1]. 
+
+\subsection{Deeplearning4j}
+Deeplearning4j is a Java-based deep learning library built and supported by Skymind, a machine learning intelligence company founded in 2014. It is an open source product designed for adoptability in industry, where Java is very common. The framework currently interfaces with both Java and Scala, with a Python SDK in-progress. Programming is primarily declarative, involving specifying network hyperparameters and layer information. Deeplearning4j integrates with Hadoop and Spark, or Akka and AWS for processing backends. Distributed execution provides data parallelism through the Iterative MapReduce model (\textbf{ref?}). Each worker processes its own minibatch of training data, with workers periodically "reducing" (averaging) their parameter data. Formal benchmarking in terms of scaling was not found, but benchmarking on their custom Java linear algebra library show 2x or more speedup over Numpy on large matrix multiplies. Websites provides clear documentation of available features and API, which range from range from a menu of optimization algorithms to built-in vectorization libraries. Seems to have active community. 
+
+
 \end{document}
+
