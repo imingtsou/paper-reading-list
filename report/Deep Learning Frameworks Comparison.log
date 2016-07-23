@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUL 2016 00:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUL 2016 16:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -39,38 +39,46 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
 
-Overfull \hbox (39.1118pt too wide) in paragraph at lines 45--70
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 31.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 31.
+
+Overfull \hbox (39.1118pt too wide) in paragraph at lines 59--84
 [][] 
  []
 
-[1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (5.23216pt too wide) in paragraph at lines 73--74
+Overfull \hbox (5.23216pt too wide) in paragraph at lines 87--88
 \OT1/cmr/m/n/10 declar-a-tive and declar-a-tive ex-pres-sions; sym-bolic in dec
 lar-ing com-pu-ta-tion graphs
  []
 
 [2] [3] (./Deep Learning Frameworks Comparison.aux) ) 
 Here is how much of TeX's memory you used:
- 212 strings out of 493089
- 2550 string characters out of 6134842
- 61199 words of memory out of 5000000
- 3780 multiletter control sequences out of 15000+600000
+ 229 strings out of 493089
+ 2852 string characters out of 6134842
+ 63199 words of memory out of 5000000
+ 3794 multiletter control sequences out of 15000+600000
  5158 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,9n,18p,1485b,109s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,9n,19p,1483b,145s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Deep Learning Frameworks Comparison.pdf" (3 pages, 61028 byt
+Output written on "Deep Learning Frameworks Comparison.pdf" (3 pages, 63570 byt
 es).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
