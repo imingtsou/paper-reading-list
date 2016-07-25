@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUL 2016 01:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUL 2016 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -242,6 +242,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--69
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\OT1/cmr/m/n/10 synchronous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\OT1/cmr/m/n/10 or asyn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\OT1/cmr/m/n/10 synchronous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\OT1/cmr/m/n/10 or asyn-
+ []
+
+
 Overfull \hbox (6.88332pt too wide) in paragraph at lines 69--69
 []|\OT1/cmr/m/n/10 Communication
  []
@@ -277,39 +297,12 @@ Overfull \hbox (103.50105pt too wide) in paragraph at lines 69--70
  []
 
 
-Overfull \hbox (14.05614pt too wide) in paragraph at lines 72--99
-[][] 
- []
-
-
-Overfull \hbox (41.11177pt too wide) in paragraph at lines 100--125
-[][] 
- []
-
-[2]
-Overfull \hbox (5.23216pt too wide) in paragraph at lines 128--129
+Overfull \hbox (5.23216pt too wide) in paragraph at lines 73--74
 \OT1/cmr/m/n/10 declar-a-tive and declar-a-tive ex-pres-sions; sym-bolic in dec
 lar-ing com-pu-ta-tion graphs
  []
 
-[3]
-
-LaTeX Warning: Citation `Large52:online' on page 4 undefined on input line 134.
-
-
-
-LaTeX Warning: Citation `Caffe27:online' on page 4 undefined on input line 134.
-
-
-
-LaTeX Warning: Citation `DBLP:journals/corr/AbadiABBCCCDDDG16' on page 4 undefi
-ned on input line 137.
-
-
-LaTeX Warning: Citation `DBLP:journals/corr/AbadiABBCCCDDDG16' on page 4 undefi
-ned on input line 137.
-
-[4] (./paper_draft.bbl
+[2] [3] [4] (./paper_draft.bbl
 Underfull \hbox (badness 2635) in paragraph at lines 4--7
 []\OT1/cmr/m/n/10 ``Large scale dis-tributed deep learn-ing on hadoop... | hado
 op at
@@ -345,38 +338,25 @@ Underfull \hbox (badness 3514) in paragraph at lines 9--12
 1/cmr/m/n/10 .  (Ac-cessed on
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+[5])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
  (./paper_draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
-
-
-Package rerunfilecheck Warning: File `paper_draft.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `paper_draft.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  9BB4CCC76E6A26E508F8E81D7B416B36;597.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+Package rerunfilecheck Info: File `paper_draft.out' has not changed.
+(rerunfilecheck)             Checksum: 63FD9EA5E131CD55C4EB1629E112FC4A;650.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 4687 strings out of 493089
- 69432 string characters out of 6134842
- 158121 words of memory out of 5000000
- 8136 multiletter control sequences out of 15000+600000
+ 4708 strings out of 493089
+ 69714 string characters out of 6134842
+ 159462 words of memory out of 5000000
+ 8152 multiletter control sequences out of 15000+600000
  8061 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,10n,28p,2307b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,10n,28p,2307b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -385,10 +365,10 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper_draft.pdf (5 pages, 102429 bytes).
+Output written on paper_draft.pdf (6 pages, 110725 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

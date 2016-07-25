@@ -52,76 +52,21 @@ If we want to get further results, we should compare them on distributed cluster
   \hline
   API & & & & & \\
   \hline
-  Computation Model & & & & & \\
+  Computation Model & synchronous or asynchronous & synchronous & synchronous or asynchronous & & synchronous \\
   \hline
   Communication Model & & & & & \\
   \hline
-  Data Parallelism & & & & & \checkmark \\
+  Data Parallelism & \checkmark & \checkmark & \checkmark& \checkmark & \checkmark \\
   \hline
-  Model Parallelism & & \xmark & \checkmark & & \\
+  Model Parallelism & \checkmark & \xmark & \checkmark & & \xmark \\
   \hline
-  Programming Paradigm & Imperative & & & & \\
+  Programming Paradigm & Imperative & Declarative & Both & & Declarative \\
   \hline
   Fault Tolerance & & & & & \\
   \hline
   UI/Visualization & & & & & \\
   \hline
 \end{tabularx}
-
-
-\begin{tabular}{|c|c|c|c|}
-\hline
-platform & TensorFlow & deeplearning4j & MXNet \\
-\hline
-Single Node & ${\surd}$  &  &  \\
-\hline
-Single Node & ${\surd}$  &  &  \\
-\hline
-Distributed & ${\surd}$ &  &   \\
-\hline
-CPU & ${\surd}$ &  &  \\
-\hline
-GPU & ${\surd}$ &  &  \\
-\hline
-Core & C++ &  &  \\
-\hline
-API & Python &  &  \\
-\hline
-Popular & 313 contributors &  &  \\
-\hline
-Computation Model & &  \\
-\hline
-Programming Model & & \\
-\hline
-Programming Expressiveness & & \\
-\hline
-\end{tabular}
-
-\begin{tabular}{|c|c|c|c|}
-\hline
-Platform & H2O & GraphLab & CaffeOnSpark \\
-\hline
-Single Node & ${\surd}$ & ${\surd}$ &  \\
-\hline
-Distributed & ${\surd}$ & ${\surd}$ &  \\
-\hline
-CPU & ${\surd}$ & ${\surd}$ &  \\
-\hline
-GPU & ${\surd}$ & ${\surd}$ &  \\
-\hline
-Core & Java & C++ &  \\
-\hline
-API & R, Python, etc & Python &  \\
-\hline
-Popular & 51 contributors & 40 contributors &  \\
-\hline
-Computation Model & &  \\
-\hline
-Programming Model & & \\
-\hline
-Programming Expressiveness & & \\
-\hline
-\end{tabular}
 
 \section{Framework Discussion}
 \subsection{MXNet}
@@ -135,6 +80,9 @@ CaffeOnSpark is a Spark deep learning package released as open-source in early 2
 
 \subsection{Tensorflow}
 Tensorflow was released by Google Research for open source in November 2015, and updated to include distributed support in 2016. The user-facing APIs are C++ and Python. Programming with Tensorflow leans more imperative than with some of the other frameworks discussed. While plenty of abstraction power is expressed in its library, the user will probably also be working with computational wrappers of primitives such as matrix operations, element-wise math operators, and looping control. In other words, the user is exposed to some of the internal workings of deep learning networks. Tensorflow sees constructed networks as a directed graph of nodes encapsulating dataflow computation and required dependencies \cite{DBLP:journals/corr/AbadiABBCCCDDDG16}. Each node, or computation, gets mapped to devices (CPUs or GPUs) according to some cost function. This partitions the overall graph into subgraphs, one per device. Cross-device edges are replaced to encode necessary synchronization between device pairs. Distributed execution appears to be a natural extension of this arrangement, except that TCP or Remote Direct Memory Access (RDMA) is used for inter-device communication on separate machines. This approach of mapping subgraphs onto devices also offers scalability potential, as each worker can schedule its own subgraph at runtime instead of relying on a centralized master \cite{DBLP:journals/corr/AbadiABBCCCDDDG16}. Parallelism in Tensorflow can be expressed at several levels, notable both data parallelism and model parallelism. Data parallelism can happen both across and within workers, by training separate batches of data on model replications. Model parallelism is expressed through splitting one model, or its graph, across devices. Model updates can either be synchronous or asynchronous for parameter-optimizing algorithms such as stochastic gradient descent (SGD). For fault tolerance, Tensorflow provides checkpointing and recovery of data designated to be persistent, while the overall computation graph is restarted. In terms of other features, TensorBoard is a tool for interactive visualization of a user's network, and also provides time series data on various aspects of the learning network's state during training. 
+
+\subsection{H2O}
+H2O is the open-source product of H2O.ai, a company focused on machine learning solutions. H2O is unique among the other tools discussed here in that it is a complete data processing platform, with its own parallel processing engine (improving on MapReduce) with a general machine learning library and other tools. The discussion will be limited to H2O's deep learning component, available since 2014. H2O is Java-based at its core, but also offers API support for Java, R, Python, Scala, Javascript, as well as a web-UI interface \cite{candel2015deep}. Programming for deep learning appears declarative, as model-building involves specifying hyperparameters and high-level layer information. Distributed execution for deep learning follows the characteristics of H2O's processing engine, which is in-memory and can be summarized as a distributed fork-join model (targeting finer-grained parallelism) \cite{Landset2015}. Data parallelism is enabled following the "HogWild!" \cite{recht2011hogwild} approach for parallelizing SGD. In implementation, multiple cores handle subsets of training data and update shared parameters asynchronously. Scaling up to multi-node, each node operates in parallel on a copy of the global parameters, while parameters are averaged for a global update, per training iteration \cite{candel2015deep}. There does not seem to be explicit support for model parallelism. Fault tolerance involves user-initiated checkpoint-and-resume. H2O's web tool can be used to build models and manage workflows, and also provides some basic summary statistics, e.g. confusion matrix from training and validation. 
 
 \section{Future Work}
 \section{Conclusion}

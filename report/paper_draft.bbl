@@ -21,4 +21,18 @@ M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
   machine learning on heterogeneous distributed systems,'' {\em CoRR},
   vol.~abs/1603.04467, 2016.
 
+\bibitem{candel2015deep}
+A.~Candel, V.~Parmar, E.~LeDell, and A.~Arora, ``Deep learning with h2o,''
+  2015.
+
+\bibitem{Landset2015}
+S.~Landset, T.~M. Khoshgoftaar, A.~N. Richter, and T.~Hasanin, ``A survey of
+  open source tools for machine learning with big data in the hadoop
+  ecosystem,'' {\em Journal of Big Data}, vol.~2, no.~1, pp.~1--36, 2015.
+
+\bibitem{recht2011hogwild}
+B.~Recht, C.~Re, S.~Wright, and F.~Niu, ``Hogwild: A lock-free approach to
+  parallelizing stochastic gradient descent,'' in {\em Advances in Neural
+  Information Processing Systems}, pp.~693--701, 2011.
+
 \end{thebibliography}

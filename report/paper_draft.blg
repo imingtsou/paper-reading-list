@@ -3,44 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper_draft.aux
 The style file: ieeetr.bst
 Database file #1: works_cited.bib
-You've used 3 entries,
+Repeated entry---line 110 of file works_cited.bib
+ : @article{Landset2015
+ :                     ,
+I'm skipping whatever remains of this entry
+You've used 6 entries,
             1876 wiz_defined-function locations,
-            493 strings with 4826 characters,
-and the built_in function-call counts, 894 in all, are:
-= -- 37
-> -- 124
+            510 strings with 5370 characters,
+and the built_in function-call counts, 1722 in all, are:
+= -- 113
+> -- 166
 < -- 0
-+ -- 43
-- -- 40
-* -- 96
-:= -- 173
-add.period$ -- 5
-call.type$ -- 3
-change.case$ -- 3
++ -- 58
+- -- 52
+* -- 157
+:= -- 290
+add.period$ -- 8
+call.type$ -- 6
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 17
-empty$ -- 54
-format.name$ -- 40
-if$ -- 177
+cite$ -- 6
+duplicate$ -- 55
+empty$ -- 134
+format.name$ -- 52
+if$ -- 377
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 1
-newline$ -- 14
-num.names$ -- 1
-pop$ -- 19
+int.to.str$ -- 6
+missing$ -- 3
+newline$ -- 23
+num.names$ -- 4
+pop$ -- 34
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 7
+skip$ -- 34
 stack$ -- 0
-substring$ -- 0
-swap$ -- 1
+substring$ -- 51
+swap$ -- 15
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 1
-width$ -- 4
-write$ -- 27
+while$ -- 10
+width$ -- 7
+write$ -- 54
+(There was 1 error message)
