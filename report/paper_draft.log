@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUL 2016 23:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUL 2016 00:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -221,7 +221,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--7
 \OT1/cmr/m/n/10 .  (Ac-cessed
  []
 
-
+[4]
 Underfull \hbox (badness 4752) in paragraph at lines 9--12
 []\OT1/cmr/m/n/10 ``Caffeonspark open sourced for dis-tributed deep... | hadoop
  at
@@ -240,34 +240,34 @@ Underfull \hbox (badness 3514) in paragraph at lines 9--12
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
  (./paper_draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `paper_draft.out' has not changed.
-(rerunfilecheck)             Checksum: FFCCCEA5AF38C66F28F64C6107EEC3C9;537.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
+(rerunfilecheck)             Checksum: 9BB4CCC76E6A26E508F8E81D7B416B36;597.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 4267 strings out of 493089
- 64389 string characters out of 6134842
+ 4272 strings out of 493089
+ 64445 string characters out of 6134842
  150270 words of memory out of 5000000
- 7756 multiletter control sequences out of 15000+600000
+ 7759 multiletter control sequences out of 15000+600000
  5672 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,9n,28p,1457b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,28p,2307b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on paper_draft.pdf (4 pages, 89340 bytes).
+Output written on paper_draft.pdf (5 pages, 92530 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 114 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
