@@ -1,12 +1,10 @@
-\BOOKMARK [1][-]{section.1}{Abstract}{}% 1
-\BOOKMARK [1][-]{section.2}{Introduction}{}% 2
-\BOOKMARK [1][-]{section.3}{Overview of Deep Learning Frameworks}{}% 3
-\BOOKMARK [1][-]{section.4}{Comparison Table}{}% 4
-\BOOKMARK [1][-]{section.5}{Framework Discussion}{}% 5
-\BOOKMARK [2][-]{subsection.5.1}{MXNet}{section.5}% 6
-\BOOKMARK [2][-]{subsection.5.2}{Deeplearning4j}{section.5}% 7
-\BOOKMARK [2][-]{subsection.5.3}{CaffeOnSpark}{section.5}% 8
-\BOOKMARK [2][-]{subsection.5.4}{Tensorflow}{section.5}% 9
-\BOOKMARK [2][-]{subsection.5.5}{H2O}{section.5}% 10
-\BOOKMARK [1][-]{section.6}{Future Work}{}% 11
-\BOOKMARK [1][-]{section.7}{Conclusion}{}% 12
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Framework Comparison}{}% 2
+\BOOKMARK [1][-]{section.3}{Framework Discussion}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{MXNet}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Deeplearning4j}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{CaffeOnSpark}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Tensorflow}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{H2O}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Future Work}{}% 9
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 10
