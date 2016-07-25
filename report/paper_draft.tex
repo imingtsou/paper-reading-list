@@ -3,6 +3,11 @@
 % Preamble
 \usepackage{url}
 \usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{amssymb}% http://ctan.org/pkg/amssymb
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+
+\newcommand{\xmark}{\ding{55}}%
 
 % Document
 \begin{document}
@@ -34,6 +39,36 @@ This comparison is based on single node, including several mainly used framework
 
 If we want to get further results, we should compare them on distributed clusters and use the latest version. This paper is submitted on March 2016, and during the four months, I do believe the frameworks especially TensorFlow evolves a lot.
 \section{Comparison Table}
+
+\begin{tabularx}{1.3\textwidth}{ |X|X|X|X|X|X| }
+  \hline
+  Platform & Tensorflow & Deeplearning4j & MXNet & H2O & CaffeOnSpark \\
+  \hline
+  Release Date & & & & & \\
+   \hline
+  Popularity & & & & & \\
+  \hline 
+  Core & item 2  & item 3  & item 4 & label 5 & label 6 \\
+  \hline
+  API & & & & & \\
+  \hline
+  Computation Model & & & & & \\
+  \hline
+  Communication Model & & & & & \\
+  \hline
+  Data Parallelism & & & & & \checkmark \\
+  \hline
+  Model Parallelism & & \xmark & \checkmark & & \\
+  \hline
+  Programming Paradigm & Imperative & & & & \\
+  \hline
+  Fault Tolerance & & & & & \\
+  \hline
+  UI/Visualization & & & & & \\
+  \hline
+\end{tabularx}
+
+
 \begin{tabular}{|c|c|c|c|}
 \hline
 platform & TensorFlow & deeplearning4j & MXNet \\
