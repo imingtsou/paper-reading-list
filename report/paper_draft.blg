@@ -3,49 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper_draft.aux
 The style file: ieeetr.bst
 Database file #1: works_cited.bib
-Repeated entry---line 110 of file works_cited.bib
- : @article{Landset2015
- :                     ,
-I'm skipping whatever remains of this entry
-You've used 6 entries,
+Warning--empty booktitle in trask2015modeling
+Warning--empty year in trask2015modeling
+You've used 11 entries,
             1876 wiz_defined-function locations,
-            510 strings with 5370 characters,
-and the built_in function-call counts, 1722 in all, are:
-= -- 113
-> -- 166
+            537 strings with 6346 characters,
+and the built_in function-call counts, 3270 in all, are:
+= -- 244
+> -- 253
 < -- 0
-+ -- 58
-- -- 52
-* -- 157
-:= -- 290
-add.period$ -- 8
-call.type$ -- 6
-change.case$ -- 6
++ -- 89
+- -- 78
+* -- 276
+:= -- 513
+add.period$ -- 12
+call.type$ -- 11
+change.case$ -- 11
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 55
-empty$ -- 134
-format.name$ -- 52
-if$ -- 377
+cite$ -- 13
+duplicate$ -- 135
+empty$ -- 278
+format.name$ -- 78
+if$ -- 740
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 3
-newline$ -- 23
-num.names$ -- 4
-pop$ -- 34
+int.to.str$ -- 11
+missing$ -- 8
+newline$ -- 38
+num.names$ -- 9
+pop$ -- 63
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 34
+skip$ -- 80
 stack$ -- 0
-substring$ -- 51
-swap$ -- 15
+substring$ -- 150
+swap$ -- 43
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 10
-width$ -- 7
-write$ -- 54
-(There was 1 error message)
+warning$ -- 2
+while$ -- 24
+width$ -- 13
+write$ -- 97
+(There were 2 warnings)

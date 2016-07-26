@@ -1,4 +1,28 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{donahue2014decaf}
+J.~Donahue, Y.~Jia, O.~Vinyals, J.~Hoffman, N.~Zhang, E.~Tzeng, and T.~Darrell,
+  ``Decaf: A deep convolutional activation feature for generic visual
+  recognition.,'' in {\em ICML}, pp.~647--655, 2014.
+
+\bibitem{schmidhuber2015deep}
+J.~Schmidhuber, ``Deep learning in neural networks: An overview,'' {\em Neural
+  Networks}, vol.~61, pp.~85--117, 2015.
+
+\bibitem{trask2015modeling}
+A.~Trask, D.~Gilmore, and M.~Russell, ``Modeling order in neural word
+  embeddings at scale,''
+
+\bibitem{dean2012large}
+J.~Dean, G.~Corrado, R.~Monga, K.~Chen, M.~Devin, M.~Mao, A.~Senior, P.~Tucker,
+  K.~Yang, Q.~V. Le, {\em et~al.}, ``Large scale distributed deep networks,''
+  in {\em Advances in neural information processing systems}, pp.~1223--1231,
+  2012.
+
+\bibitem{DBLP:journals/corr/BahrampourRSS15}
+S.~Bahrampour, N.~Ramakrishnan, L.~Schott, and M.~Shah, ``Comparative study of
+  caffe, neon, theano, and torch for deep learning,'' {\em CoRR},
+  vol.~abs/1511.06435, 2015.
 
 \bibitem{Large52:online}
 ``Large scale distributed deep learning on hadoop... | hadoop at yahoo.''
