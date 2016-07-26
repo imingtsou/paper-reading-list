@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUL 2016 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 JUL 2016 00:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -379,11 +379,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
  []
 
 
-Overfull \hbox (10.82776pt too wide) in paragraph at lines 52--52
-[]|\OT1/cmr/m/n/10 UI/Visualization| 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []|\OT1/cmr/m/n/10 Graph-
  []
@@ -406,12 +401,18 @@ Overfull \hbox (103.50105pt too wide) in paragraph at lines 52--53
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (5.23216pt too wide) in paragraph at lines 56--57
+Overfull \hbox (20.69499pt too wide) in paragraph at lines 54--55
+[]\OT1/cmr/m/n/10 The rel-e-vance of re-lease date, core lan-guage, user-facing
+ APIs are self-explanatory.
+ []
+
+[2] [3]
+Overfull \hbox (5.23216pt too wide) in paragraph at lines 77--78
 \OT1/cmr/m/n/10 declar-a-tive and declar-a-tive ex-pres-sions; sym-bolic in dec
 lar-ing com-pu-ta-tion graphs
  []
 
-[2] [3] [4] (./paper_draft.bbl
+[4] [5] (./paper_draft.bbl
 Underfull \hbox (badness 1845) in paragraph at lines 28--31
 []\OT1/cmr/m/n/10 ``Large scale dis-tributed deep learn-ing on hadoop... | hado
 op at
@@ -447,20 +448,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--36
 1/cmr/m/n/10 .  (Ac-cessed
  []
 
-[5])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
+[6])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
  (./paper_draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
-Package rerunfilecheck Info: File `paper_draft.out' has not changed.
-(rerunfilecheck)             Checksum: B82C63455A2A4FE18A0017B70E82DE6C;538.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+
+
+Package rerunfilecheck Warning: File `paper_draft.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `paper_draft.out':
+(rerunfilecheck)             Before: B82C63455A2A4FE18A0017B70E82DE6C;538
+(rerunfilecheck)             After:  8B58B65643EA3A61D004E8EC08C5DC8B;538.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 4845 strings out of 493089
- 71555 string characters out of 6134842
+ 4846 strings out of 493089
+ 71561 string characters out of 6134842
  166528 words of memory out of 5000000
  8277 multiletter control sequences out of 15000+600000
  8668 words of font info for 33 fonts, out of 8000000 for 9000
@@ -475,10 +483,10 @@ ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper_draft.pdf (6 pages, 131824 bytes).
+Output written on paper_draft.pdf (7 pages, 134352 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
