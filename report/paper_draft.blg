@@ -5,45 +5,45 @@ The style file: ieeetr.bst
 Database file #1: works_cited.bib
 Warning--empty booktitle in trask2015modeling
 Warning--empty year in trask2015modeling
-You've used 11 entries,
+You've used 14 entries,
             1876 wiz_defined-function locations,
-            537 strings with 6346 characters,
-and the built_in function-call counts, 3270 in all, are:
-= -- 244
-> -- 253
+            550 strings with 6980 characters,
+and the built_in function-call counts, 3747 in all, are:
+= -- 280
+> -- 287
 < -- 0
-+ -- 89
-- -- 78
-* -- 276
-:= -- 513
-add.period$ -- 12
-call.type$ -- 11
-change.case$ -- 11
++ -- 102
+- -- 88
+* -- 308
+:= -- 584
+add.period$ -- 17
+call.type$ -- 14
+change.case$ -- 14
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 135
-empty$ -- 278
-format.name$ -- 78
-if$ -- 740
+cite$ -- 16
+duplicate$ -- 152
+empty$ -- 331
+format.name$ -- 88
+if$ -- 855
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 8
-newline$ -- 38
-num.names$ -- 9
-pop$ -- 63
+int.to.str$ -- 14
+missing$ -- 9
+newline$ -- 49
+num.names$ -- 10
+pop$ -- 83
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 80
+skip$ -- 87
 stack$ -- 0
 substring$ -- 150
-swap$ -- 43
+swap$ -- 44
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 24
-width$ -- 13
-write$ -- 97
+while$ -- 25
+width$ -- 16
+write$ -- 121
 (There were 2 warnings)
