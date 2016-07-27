@@ -1,0 +1,32 @@
+\section{Introduction}
+Deep learning has been quite successful in improving predictive power in domains such as computer vision and natural language processing. As accuracies continue to  increase, so do the complexity of network architectures and the size of the parameter space. Google's network for unsupervised learning of image features reached a billion parameters \cite{donahue2014decaf}, and was increased to 11 billion parmeters in a separate experiment at Stanford \cite{schmidhuber2015deep}. In the NLP space, Digital Reasoning Systems trained a 160 billion parameter network \cite{trask2015modeling} fairly recently. Handling problems of this size involves scaling up to thousands of cores across many machines, which Google first demonstrated on its distributed DistBelief framework \cite{dean2012large}.
+
+The goal of this paper is to survey the landscape of deep learning frameworks with distributed execution, and compare them across a consistent set of characteristics. These characteristics include release date, core language, user-facing API, computation model, communication model, data parallelism, model parallelism, programming paradigm, fault tolerance, and visualization. This choice of criteria is explained in detail in Section 2. Tensorflow, Deeplearning4j, MXNet, H2O, and CaffeOnSpark were chosen by a combination of factors, including their being open-source, level of documentation, maturity as a product, and adoption by the community. Frameworks currently without distributed support won't be the focus of this discussion, but well-known ones such as Theano, Torch, Caffe (without Spark) have been studied in the past \cite{DBLP:journals/corr/BahrampourRSS15}. 
+
+The rest of the paper is organized as follows: Section 2 explains the set of comparison criteria and summarizes the distributed frameworks according that criteria. Section 3 discusses each distributed framework in detail. Section 4 outlines future directions of work. Section 5 concludes the paper.
+
+%The \textit{proceedings} are the records of a conference.
+%ACM seeks to give these conference by-products a uniform,
+%high-quality appearance.  To do this, ACM has some rigid
+%requirements for the format of the proceedings documents: there
+%is a specified format (balanced  double columns), a specified
+%set of fonts (Arial or Helvetica and Times Roman) in
+%certain specified sizes (for instance, 9 point for body copy),
+%a specified live area (18 $\times$ 23.5 cm [7" $\times$ 9.25"]) centered on
+%the page, specified size of margins (2.54cm [1"] top and
+%bottom and 1.9cm [.75"] left and right; specified column width
+%(8.45cm [3.33"]) and gutter size (.083cm [.33"]).
+%
+%The good news is, with only a handful of manual
+%settings\footnote{Two of these, the {\texttt{\char'134 numberofauthors}}
+%and {\texttt{\char'134 alignauthor}} commands, you have
+%already used; another, {\texttt{\char'134 balancecolumns}}, will
+%be used in your very last run of \LaTeX\ to ensure
+%balanced column heights on the last page.}, the \LaTeX\ document
+%class file handles all of this for you.
+%
+%The remainder of this document is concerned with showing, in
+%the context of an ``actual'' document, the \LaTeX\ commands
+%specifically available for denoting the structure of a
+%proceedings paper, rather than with giving rigorous descriptions
+%or explanations of such commands.

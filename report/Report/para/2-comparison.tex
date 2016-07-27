@@ -1,0 +1,43 @@
+\section{Framework Comparison}
+\begin{table*}
+\centering
+\caption{Some Typical Commands}
+\begin{tabular}{|m{2.6cm}<{\centering}|m{2cm}<{\centering}|m{2cm}<{\centering}|m{2cm}<{\centering}|m{2cm}<{\centering}|m{2cm}<{\centering}|}
+\hline
+Platform & Tensorflow & Deeplearning4j & MXNet & H2O & CaffeOnSpark\\ \hline\hline
+Release Date & 2016 (distributed) & 2015 & 2015 & 2014 (deep learning) & 2016\\
+\hline
+Core Language & C++  & Java  & C++ & Java &C++, Scala\\
+\hline
+API & C++, Python & Java, Scala & C++, Python, R, Scala, Matlab, Javascript, Go, Julia & Java, R, Python, Scala, Javascript, web-UI & Python, Matlab, Scala\\
+\hline
+Computation Model & Sync or async & Sync & Sync or async & Async & Sync\\
+\hline
+Communication Model & Parameter server & Iterative MapReduce & Parameter server & Distributed fork-join & MPI Allreduce\\
+\hline
+Data Parallelism & \cmark & \cmark & \cmark& \cmark & \cmark\\
+\hline
+Model Parallelism & \cmark & \xmark & \cmark & \xmark & \xmark\\
+\hline
+Programming Paradigm & Imperative & Declarative & Both & Declarative & Declarative\\
+\hline
+Fault Tolerance & Checkpoint-and-recovery & Checkpoint-and-resume & Checkpoint-and-resume & N/A & N/A\\
+\hline
+Visualization & Graph-visualization, training monitoring & Training monitoring & None & None & Summary Statistics\\
+\hline
+\end{tabular}
+\end{table*}
+
+The relevance of release date, core language, user-facing APIs are self-explanatory. Computation model specifies the nature of data consistency through execution, i.e. whether updates are synchronous or asynchronous. In context of optimization kernels like stochastic gradient descent (SGD), synchronous execution has better convergence guarantees by maintaining consistency or near-consistency with sequential execution. However, asynchronous SGD can exploit more parallelism and train faster, but with less guarantees of convergence speed. Note that frameworks like Tensorflow and MXNet simply leave this as a tradeoff choice for the user. 
+
+The communication model tries to categorize the nature of distributed execution by well-known paradigms. 
+
+Data and model parallelism are the two prevalent opportunities for parallelism in training deep learning networks at the distributed level. In data parallelism, copies of the model, or parameters, are each trained on its own subset of the training data, while updating the same global model. In model parallelism, the model itself is partitioned and trained in parallel. 
+
+Programming paradigm falls into the categories of imperative, declarative, or a mix of both. Conventionally, imperative programming specifies \textit{how} a computation is done, where as declarative programming specifies \textit{what} needs to be done. There is plenty of gray area, but the distinction is made in this paper based on whether the API exposes the user to computation details that require some understanding of the inner math of neural networks (imperative), or whether the abstraction is yet higher (declarative). 
+
+Fault tolerance is included for two reasons. Distributed execution tends to be more failure prone, especially at scale. Furthermore, any failures (not necessarily limited to distributed execution) that interrupt training part-way can be very costly, if all the progress made on the model is simply lost. 
+
+Finally, UI/Visualization is a feature supported to very different degrees across the frameworks studied. The ability to monitor the progress of training and the internal state of networks over time could be useful for debugging or hyperparameter tuning, and could be an interesting direction. Tensorflow and Deeplearning4j both support this kind of visualization. 
+
+The scope of deep learning functionality was a possible point of discussion. However, initial surveying suggested that at this point most deep learning libraries provide all the standard network architectures, training and optimization techniques. More differences are likely to be found in programmability or performance. 
