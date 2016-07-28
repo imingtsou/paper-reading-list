@@ -3,57 +3,60 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: abbrv.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "Lamport:LaTeX"
-Warning--I didn't find a database entry for "bowman:reasoning"
-Warning--I didn't find a database entry for "clark:pct"
-Warning--I didn't find a database entry for "braams:babel"
-Warning--I didn't find a database entry for "herlihy:methodology"
-Warning--I didn't find a database entry for "salas:calculus"
+Warning--to sort, need author or key in Tenso77:online
+Warning--to sort, need author or key in Multi35:online
+Warning--to sort, need author or key in Power24:online
+Warning--to sort, need author or key in AnInt85:online
 Warning--to sort, need author or key in Itera38:online
 Warning--to sort, need author or key in ND4J'34:online
 Warning--to sort, need author or key in Large52:online
 Warning--to sort, need author or key in Caffe27:online
+Warning--to sort, need author or key in Torch91:online
+Warning--to sort, need author or key in DIGIT88:online
+Warning--to sort, need author or key in GP1004:online
+Warning--empty journal in catanzaro2013deep
+Warning--empty year in catanzaro2013deep
 Warning--empty booktitle in trask2015modeling
 Warning--empty year in trask2015modeling
-You've used 14 entries,
+You've used 27 entries,
             2118 wiz_defined-function locations,
-            577 strings with 7304 characters,
-and the built_in function-call counts, 6033 in all, are:
-= -- 526
-> -- 473
-< -- 3
-+ -- 191
-- -- 176
-* -- 484
-:= -- 1004
-add.period$ -- 40
-call.type$ -- 14
-change.case$ -- 129
+            632 strings with 9452 characters,
+and the built_in function-call counts, 9500 in all, are:
+= -- 860
+> -- 621
+< -- 5
++ -- 256
+- -- 226
+* -- 688
+:= -- 1522
+add.period$ -- 79
+call.type$ -- 27
+change.case$ -- 193
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 171
-empty$ -- 367
-format.name$ -- 176
-if$ -- 1212
+cite$ -- 42
+duplicate$ -- 303
+empty$ -- 682
+format.name$ -- 226
+if$ -- 1974
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 9
-newline$ -- 71
-num.names$ -- 20
-pop$ -- 170
+int.to.str$ -- 27
+missing$ -- 15
+newline$ -- 135
+num.names$ -- 32
+pop$ -- 289
 preamble$ -- 1
-purify$ -- 115
+purify$ -- 166
 quote$ -- 0
-skip$ -- 134
+skip$ -- 229
 stack$ -- 0
-substring$ -- 213
-swap$ -- 46
-text.length$ -- 3
+substring$ -- 353
+swap$ -- 74
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
-warning$ -- 6
-while$ -- 33
-width$ -- 16
-write$ -- 140
-(There were 12 warnings)
+type$ -- 108
+warning$ -- 15
+while$ -- 53
+width$ -- 29
+write$ -- 265
+(There were 15 warnings)

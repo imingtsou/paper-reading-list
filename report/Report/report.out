@@ -2,10 +2,12 @@
 \BOOKMARK [1][-]{section.2}{Framework Comparison}{}% 2
 \BOOKMARK [1][-]{section.3}{Framework Discussion}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{Tensorflow}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{Deeplearning4j}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.3}{MXNet}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.4}{H2O}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.5}{CaffeOnSpark}{section.3}% 8
-\BOOKMARK [1][-]{section.4}{Future Work}{}% 9
-\BOOKMARK [1][-]{section.5}{Conclusion}{}% 10
-\BOOKMARK [1][-]{section.6}{REFERENCES }{}% 11
+\BOOKMARK [2][-]{subsection.3.2}{CNTK}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Deeplearning4j}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{MXNet}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{H2O}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.6}{CaffeOnSpark}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.7}{Additional Frameworks}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.8}{Relevant Research}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Conclusion}{}% 12
+\BOOKMARK [1][-]{section.5}{REFERENCES }{}% 13
