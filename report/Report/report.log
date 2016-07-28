@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JUL 2016 03:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JUL 2016 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -435,13 +435,7 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 92.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-(./para/0-abstract.tex) (./para/1-introduction.tex)
-Overfull \hbox (3.81985pt too wide) in paragraph at lines 4--96
-\OT1/cmr/m/n/9 char-ac-ter-is-tics in-clude re-lease date, core lan-guage, user
--facing
- []
-
-(./para/2-comparison.tex
+(./para/0-abstract.tex) (./para/1-introduction.tex) (./para/2-comparison.tex
 Overfull \hbox (3.37808pt too wide) in paragraph at lines 7--7
  []|\OT1/cmr/m/n/9 Deeplearning4j| 
  []
@@ -669,7 +663,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/
 xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/zapfding/uzdr.pfb>
-Output written on report.pdf (5 pages, 116689 bytes).
+Output written on report.pdf (5 pages, 116356 bytes).
 PDF statistics:
  203 PDF objects out of 1000 (max. 8388607)
  187 compressed objects within 2 object streams
