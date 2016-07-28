@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JUL 2016 03:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JUL 2016 03:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,7 +634,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 
+l.107 
        [4])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 443.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
@@ -650,7 +650,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 443.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 443.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 443.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 65147EE55C2FC4E6DAF8DD69332E721A;730.
+(rerunfilecheck)             Checksum: 2179F475E37B482DAB3E7BFDC725B349;731.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 443.
  ) 
 Here is how much of TeX's memory you used:
@@ -669,7 +669,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/
 xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/zapfding/uzdr.pfb>
-Output written on report.pdf (5 pages, 115756 bytes).
+Output written on report.pdf (5 pages, 116689 bytes).
 PDF statistics:
  203 PDF objects out of 1000 (max. 8388607)
  187 compressed objects within 2 object streams
