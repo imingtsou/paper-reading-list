@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JUL 2016 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JUL 2016 19:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -436,38 +436,79 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 92.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 (./para/0-abstract.tex) (./para/1-introduction.tex) (./para/2-comparison.tex
-Overfull \hbox (3.37808pt too wide) in paragraph at lines 7--7
- []|\OT1/cmr/m/n/9 Deeplearning4j| 
+Overfull \hbox (3.58255pt too wide) in paragraph at lines 35--35
+ []|\OT1/cmr/m/n/8 CaffeOnSpark| 
  []
 
-) [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+Overfull \hbox (2.6023pt too wide) in paragraph at lines 35--35
+ []|\OT1/cmr/m/n/8 Synchronization 
+ []
 
 
-]
+Overfull \hbox (1.88701pt too wide) in paragraph at lines 35--35
+ []|\OT1/cmr/m/n/8 Communication 
+ []
+
+
+Overfull \hbox (2.18263pt too wide) in paragraph at lines 35--35
+ []|\OT1/cmr/m/n/8 Checkpoint- 
+ []
+
+
+Overfull \hbox (2.18263pt too wide) in paragraph at lines 35--35
+ []|\OT1/cmr/m/n/8 Checkpoint- 
+ []
+
+
+Overfull \hbox (2.18263pt too wide) in paragraph at lines 35--35
+ []|\OT1/cmr/m/n/8 Checkpoint- 
+ []
+
+
+Overfull \hbox (2.18263pt too wide) in paragraph at lines 35--35
+ []|\OT1/cmr/m/n/8 Checkpoint- 
+ []
+
+
+Overfull \hbox (2.18263pt too wide) in paragraph at lines 35--35
+ []|\OT1/cmr/m/n/8 Checkpoint- 
+ []
+
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+])
 (./para/3-discussion.tex (./para/3.1-tensorflow.tex) (./para/3.2-cntk.tex)
-(./para/3.3-deeplearning4j.tex) (./para/3.4-mxnet.tex
-Overfull \hbox (6.24599pt too wide) in paragraph at lines 2--1
-\OT1/cmr/m/n/9 ends. Dis-tributed ex-e-cu-tion pro-vides data par-al-lelism thr
-ough
- []
+(./para/3.3-deeplearning4j.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \subsection
-               {MXNet} [2]) (./para/3.5-h2o.tex
+l.1 \subsection{Deeplearning4j}
+                                [2]) (./para/3.4-mxnet.tex
+Overfull \hbox (6.24599pt too wide) in paragraph at lines 2--1
+\OT1/cmr/m/n/9 ends. Dis-tributed ex-e-cu-tion pro-vides data par-al-lelism thr
+ough
+ []
+
+) (./para/3.5-h2o.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-) (./para/3.6-caffeonspark.tex) (./para/3.7-additional.tex)
-(./para/3.8-relevantresearch.texpdfTeX warning (ext4): destination with the sam
-e identifier (name{page.}) has been already used, duplicate ignored
+) (./para/3.6-caffeonspark.tex) (./para/3.7-theano.tex) (./para/3.8-torch.tex
+Underfull \vbox (badness 5105) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 
-     [3])) (./para/4-conclusion.tex) (./report.bbl
+l.1 \subsection{CaffeOnSpark}
+                              [3]) (./para/3.9-additional.tex))
+(./para/4-scaling.tex) (./para/5-conclusion.tex) (./report.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 []\OT1/cmr/m/n/9 Caffeonspark open sourced for dis-tributed
  []
@@ -541,7 +582,12 @@ Underfull \hbox (badness 3396) in paragraph at lines 22--27
  (Ac-cessed on
  []
 
-
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 
+      [4]
 Underfull \hbox (badness 2103) in paragraph at lines 29--33
 []\OT1/cmr/m/n/9 Iterative re-duce with dl4j on hadoop and spark
  []
@@ -624,49 +670,53 @@ Underfull \hbox (badness 2941) in paragraph at lines 89--94
 \OT1/cmr/m/n/9 A flex-i-ble and ef-fi-cient ma-chine learn-ing li-brary
  []
 
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 445.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.107 
-       [4])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 443.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.443 \end{document}
-                     [5
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 443.
+l.445 \end{document}
+                     [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 445.
  (./report.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 443.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 443.
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 2179F475E37B482DAB3E7BFDC725B349;731.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 443.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 445.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 445.
+
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: 52EBEEA85F4FF1B70CCDF93266706B8F;860
+(rerunfilecheck)             After:  3D05F1EACFDCEC1706AC028AE70C3092;845.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 445.
  ) 
 Here is how much of TeX's memory you used:
- 6468 strings out of 493089
- 92859 string characters out of 6134842
- 195118 words of memory out of 5000000
- 9760 multiletter control sequences out of 15000+600000
- 19133 words of font info for 49 fonts, out of 8000000 for 9000
+ 6493 strings out of 493089
+ 93116 string characters out of 6134842
+ 211118 words of memory out of 5000000
+ 9770 multiletter control sequences out of 15000+600000
+ 21142 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,30p,2257b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/urw/zapfding/uzdr.pfb>
-Output written on report.pdf (5 pages, 116356 bytes).
+ 41i,12n,30p,2257b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsection.3.10} has been referenced but does not
+ exist, replaced by a fixed one
+
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
+rw/zapfding/uzdr.pfb>
+Output written on report.pdf (5 pages, 137553 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 223 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
