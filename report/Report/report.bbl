@@ -12,6 +12,11 @@ Digits: Deep learning gpu training system | parallel forall.
   \url{https://devblogs.nvidia.com/parallelforall/digits-deep-learning-gpu-training-system/}.
 \newblock (Accessed on 07/28/2016).
 
+\bibitem{fbcun49:online}
+fbcunn - documentation.
+\newblock \url{http://facebook.github.io/fbcunn/fbcunn/}.
+\newblock (Accessed on 07/28/2016).
+
 \bibitem{GP1004:online}
 Gp100 pascal whitepaper.
 \newblock
@@ -36,6 +41,11 @@ Large scale distributed deep learning on hadoop... | hadoop at yahoo.
 \newblock
   \url{http://yahoohadoop.tumblr.com/post/129872361846/large-scale-distributed-deep-learning-on-hadoop}.
 \newblock (Accessed on 07/23/2016).
+
+\bibitem{mila-81:online}
+mila-udem/platoon: Multi-gpu mini-framework for theano.
+\newblock \url{https://github.com/mila-udem/platoon}.
+\newblock (Accessed on 07/28/2016).
 
 \bibitem{Multi35:online}
 Multiple gpus and machines á microsoft/cntk wiki.
@@ -65,6 +75,18 @@ Torch | scientific computing for luajit.
 \newblock \url{http://torch.ch/}.
 \newblock (Accessed on 07/28/2016).
 
+\bibitem{torch27:online}
+torch\_tutorial.
+\newblock
+  \url{http://learning.cs.toronto.edu/wp-content/uploads/2015/02/torch_tutorial.pdf}.
+\newblock (Accessed on 07/28/2016).
+
+\bibitem{Using61:online}
+Using multiple gpus Ñ theano 0.8.2 documentation.
+\newblock
+  \url{http://deeplearning.net/software/theano/tutorial/using_multi_gpu.html}.
+\newblock (Accessed on 07/28/2016).
+
 \bibitem{DBLP:journals/corr/AbadiABBCCCDDDG16}
 M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
   A.~Davis, J.~Dean, M.~Devin, S.~Ghemawat, I.~J. Goodfellow, A.~Harp,
@@ -76,6 +98,13 @@ M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
 \newblock Tensorflow: Large-scale machine learning on heterogeneous distributed
   systems.
 \newblock {\em CoRR}, abs/1603.04467, 2016.
+
+\bibitem{bergstra-proc-scipy-2010}
+J.~Bergstra, O.~Breuleux, F.~Bastien, P.~Lamblin, R.~Pascanu, G.~Desjardins,
+  J.~Turian, D.~Warde-Farley, and Y.~Bengio.
+\newblock Theano: A cpu and gpu math compiler in python.
+\newblock In S.~van~der Walt and J.~Millman, editors, {\em Proceedings of the
+  9th Python in Science Conference}, pages 3 -- 10, 2010.
 
 \bibitem{candel2015deep}
 A.~Candel, V.~Parmar, E.~LeDell, and A.~Arora.
@@ -91,6 +120,11 @@ T.~Chen, M.~Li, Y.~Li, M.~Lin, N.~Wang, M.~Wang, T.~Xiao, B.~Xu, C.~Zhang, and
 \newblock Mxnet: A flexible and efficient machine learning library for
   heterogeneous distributed systems.
 \newblock {\em arXiv preprint arXiv:1512.01274}, 2015.
+
+\bibitem{collobert2011torch7}
+R.~Collobert, K.~Kavukcuoglu, and C.~Farabet.
+\newblock Torch7: A matlab-like environment for machine learning.
+\newblock In {\em BigLearn, NIPS Workshop}, number EPFL-CONF-192376, 2011.
 
 \bibitem{dean2012large}
 J.~Dean, G.~Corrado, R.~Monga, K.~Chen, M.~Devin, M.~Mao, A.~Senior, P.~Tucker,

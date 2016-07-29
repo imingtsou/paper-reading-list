@@ -25,6 +25,10 @@
     \hline
     Model Parallelism & \cmark & N/A & \xmark & \cmark & \xmark & \xmark & \cmark & \cmark \\
     \hline
+    Model Parallelism & \cmark & N/A & \xmark & \cmark & \xmark & \xmark & \cmark & \cmark \\
+    \hline
+    Deep Learning Models & DBN, CNN, RNN & DBN, CNN, RNN & DBN, CNN, RNN & DBN, CNN, RNN & DBN & DBN, CNN, RNN & DBN, CNN, RNN & DBN, CNN, RNN \\
+    \hline
     Programming Paradigm & Imperative & Imperative & Declarative & Both & Declarative & Declarative & Imperative & Imperative \\
     \hline
     Fault Tolerance & Checkpoint-and-recovery & Checkpoint-and-resume & Checkpoint-and-resume & Checkpoint-and-resume & N/A & N/A & Checkpoint-and-resume & Checkpoint-and-resume \\
@@ -37,7 +41,7 @@
 
 The relevance of release date, core language, user-facing APIs are self-explanatory. Synchronization model specifies the nature of data consistency through execution, i.e. whether updates are synchronous or asynchronous. In context of optimization kernels like stochastic gradient descent (SGD), synchronous execution has better convergence guarantees by maintaining consistency or near-consistency with sequential execution. Asynchronous SGD can exploit more parallelism and train faster, but with less guarantees of convergence speed. Frameworks like Tensorflow and MXNet leave this tradeoff as a choice to the user. 
 
-The communication model tries to categorize the nature of distributed execution by well-known paradigms. 
+The communication model tries to categorize the nature of across-machine execution according to well-known paradigms.
 
 There are three possible levels of parallelism at the hardware level: cores within a CPU/GPU device, across multiple devices (usually GPUs for deep learning), or across machines. Most lower-level library kernels (e.g. for linear algebra) are designed to use multiple cores of a device by default, so this is not a major point of comparison. At this point, all the frameworks also support parallelism across multiple GPUs. Theano and Torch do not yet support multi-machine parallelism. 
 
