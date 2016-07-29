@@ -15,7 +15,6 @@ Warning--to sort, need author or key in mila-81:online
 Warning--to sort, need author or key in Using61:online
 Warning--to sort, need author or key in fbcun49:online
 Warning--to sort, need author or key in torch27:online
-Warning--to sort, need author or key in Torch91:online
 Warning--to sort, need author or key in DIGIT88:online
 Warning--to sort, need author or key in GP1004:online
 Warning--empty journal in catanzaro2013deep
@@ -23,45 +22,45 @@ Warning--empty year in catanzaro2013deep
 Warning--there's a number but no series in collobert2011torch7
 Warning--empty booktitle in trask2015modeling
 Warning--empty year in trask2015modeling
-You've used 33 entries,
+You've used 30 entries,
             2118 wiz_defined-function locations,
-            657 strings with 10434 characters,
-and the built_in function-call counts, 11160 in all, are:
-= -- 1010
-> -- 699
+            642 strings with 10007 characters,
+and the built_in function-call counts, 10507 in all, are:
+= -- 946
+> -- 673
 < -- 7
-+ -- 288
-- -- 252
-* -- 786
-:= -- 1760
-add.period$ -- 97
-call.type$ -- 33
-change.case$ -- 223
++ -- 277
+- -- 244
+* -- 752
+:= -- 1649
+add.period$ -- 88
+call.type$ -- 30
+change.case$ -- 210
 chr.to.int$ -- 0
-cite$ -- 53
-duplicate$ -- 366
-empty$ -- 842
-format.name$ -- 252
-if$ -- 2349
+cite$ -- 49
+duplicate$ -- 339
+empty$ -- 785
+format.name$ -- 244
+if$ -- 2211
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 17
-newline$ -- 165
-num.names$ -- 38
-pop$ -- 352
+int.to.str$ -- 30
+missing$ -- 15
+newline$ -- 150
+num.names$ -- 34
+pop$ -- 336
 preamble$ -- 1
-purify$ -- 190
+purify$ -- 180
 quote$ -- 0
-skip$ -- 274
+skip$ -- 253
 stack$ -- 0
-substring$ -- 406
-swap$ -- 90
+substring$ -- 391
+swap$ -- 87
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
-warning$ -- 20
-while$ -- 60
-width$ -- 35
-write$ -- 323
-(There were 20 warnings)
+type$ -- 120
+warning$ -- 19
+while$ -- 56
+width$ -- 32
+write$ -- 292
+(There were 19 warnings)

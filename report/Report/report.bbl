@@ -70,11 +70,6 @@ Tensorflow meets microsoft’s cntk | the escience cloud.
   \url{https://esciencegroup.com/2016/02/08/tensorflow-meets-microsofts-cntk/}.
 \newblock (Accessed on 07/27/2016).
 
-\bibitem{Torch91:online}
-Torch | scientific computing for luajit.
-\newblock \url{http://torch.ch/}.
-\newblock (Accessed on 07/28/2016).
-
 \bibitem{torch27:online}
 torch\_tutorial.
 \newblock
@@ -158,11 +153,6 @@ S.~Landset, T.~M. Khoshgoftaar, A.~N. Richter, and T.~Hasanin.
   the hadoop ecosystem.
 \newblock {\em Journal of Big Data}, 2(1):1--36, 2015.
 
-\bibitem{DBLP:journals/corr/MaMT16}
-H.~Ma, F.~Mao, and G.~W. Taylor.
-\newblock Theano-mpi: a theano-based distributed training framework.
-\newblock {\em CoRR}, abs/1605.08325, 2016.
-
 \bibitem{recht2011hogwild}
 B.~Recht, C.~Re, S.~Wright, and F.~Niu.
 \newblock Hogwild: A lock-free approach to parallelizing stochastic gradient
@@ -181,12 +171,6 @@ C.~Szegedy, W.~Liu, Y.~Jia, P.~Sermanet, S.~Reed, D.~Anguelov, D.~Erhan,
 \newblock Going deeper with convolutions.
 \newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
   Pattern Recognition}, pages 1--9, 2015.
-
-\bibitem{2016arXiv160502688short}
-{Theano Development Team}.
-\newblock {Theano: A {Python} framework for fast computation of mathematical
-  expressions}.
-\newblock {\em arXiv e-prints}, abs/1605.02688, May 2016.
 
 \bibitem{trask2015modeling}
 A.~Trask, D.~Gilmore, and M.~Russell.
