@@ -6,6 +6,30 @@ Caffeonspark open sourced for distributed deep... | hadoop at yahoo.
   \url{http://yahoohadoop.tumblr.com/post/139916563586/caffeonspark-open-sourced-for-distributed-deep}.
 \newblock (Accessed on 07/23/2016).
 
+\bibitem{DIGIT88:online}
+Digits: Deep learning gpu training system | parallel forall.
+\newblock
+  \url{https://devblogs.nvidia.com/parallelforall/digits-deep-learning-gpu-training-system/}.
+\newblock (Accessed on 07/28/2016).
+
+\bibitem{fbcun49:online}
+fbcunn - documentation.
+\newblock \url{http://facebook.github.io/fbcunn/fbcunn/}.
+\newblock (Accessed on 07/28/2016).
+
+\bibitem{GP1004:online}
+Gp100 pascal whitepaper.
+\newblock
+  \url{https://images.nvidia.com/content/pdf/tesla/whitepaper/pascal-architecture-whitepaper.pdf}.
+\newblock (Accessed on 07/27/2016).
+
+\bibitem{AnInt85:online}
+An introduction to computational networks and the computational network
+  toolkit.
+\newblock
+  \url{http://www.zhihenghuang.com/publications/CNTKBook-Draft0.7-2015-03-19.pdf}.
+\newblock (Accessed on 07/27/2016).
+
 \bibitem{Itera38:online}
 Iterative reduce with dl4j on hadoop and spark - deeplearning4j: Open-source,
   distributed deep learning for the jvm.
@@ -18,10 +42,45 @@ Large scale distributed deep learning on hadoop... | hadoop at yahoo.
   \url{http://yahoohadoop.tumblr.com/post/129872361846/large-scale-distributed-deep-learning-on-hadoop}.
 \newblock (Accessed on 07/23/2016).
 
+\bibitem{mila-81:online}
+mila-udem/platoon: Multi-gpu mini-framework for theano.
+\newblock \url{https://github.com/mila-udem/platoon}.
+\newblock (Accessed on 07/28/2016).
+
+\bibitem{Multi35:online}
+Multiple gpus and machines · microsoft/cntk wiki.
+\newblock
+  \url{https://github.com/Microsoft/CNTK/wiki/Multiple-GPUs-and-machines}.
+\newblock (Accessed on 07/27/2016).
+
 \bibitem{ND4J'34:online}
 Nd4j's benchmarking tool n-dimensional scientific computing for java.
 \newblock \url{http://nd4j.org/benchmarking}.
 \newblock (Accessed on 07/26/2016).
+
+\bibitem{Power24:online}
+Powerpoint presentation.
+\newblock
+  \url{http://research.microsoft.com/en-us/um/people/dongyu/CNTK-Tutorial-NIPS2015.pdf}.
+\newblock (Accessed on 07/27/2016).
+
+\bibitem{Tenso77:online}
+Tensorflow meets microsoft’s cntk | the escience cloud.
+\newblock
+  \url{https://esciencegroup.com/2016/02/08/tensorflow-meets-microsofts-cntk/}.
+\newblock (Accessed on 07/27/2016).
+
+\bibitem{torch27:online}
+torch\_tutorial.
+\newblock
+  \url{http://learning.cs.toronto.edu/wp-content/uploads/2015/02/torch_tutorial.pdf}.
+\newblock (Accessed on 07/28/2016).
+
+\bibitem{Using61:online}
+Using multiple gpus — theano 0.8.2 documentation.
+\newblock
+  \url{http://deeplearning.net/software/theano/tutorial/using_multi_gpu.html}.
+\newblock (Accessed on 07/28/2016).
 
 \bibitem{DBLP:journals/corr/AbadiABBCCCDDDG16}
 M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
@@ -35,15 +94,20 @@ M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
   systems.
 \newblock {\em CoRR}, abs/1603.04467, 2016.
 
-\bibitem{DBLP:journals/corr/BahrampourRSS15}
-S.~Bahrampour, N.~Ramakrishnan, L.~Schott, and M.~Shah.
-\newblock Comparative study of caffe, neon, theano, and torch for deep
-  learning.
-\newblock {\em CoRR}, abs/1511.06435, 2015.
+\bibitem{bergstra-proc-scipy-2010}
+J.~Bergstra, O.~Breuleux, F.~Bastien, P.~Lamblin, R.~Pascanu, G.~Desjardins,
+  J.~Turian, D.~Warde-Farley, and Y.~Bengio.
+\newblock Theano: A cpu and gpu math compiler in python.
+\newblock In S.~van~der Walt and J.~Millman, editors, {\em Proceedings of the
+  9th Python in Science Conference}, pages 3 -- 10, 2010.
 
 \bibitem{candel2015deep}
 A.~Candel, V.~Parmar, E.~LeDell, and A.~Arora.
 \newblock Deep learning with h2o, 2015.
+
+\bibitem{catanzaro2013deep}
+B.~Catanzaro.
+\newblock Deep learning with cots hpc systems.
 
 \bibitem{chen2015mxnet}
 T.~Chen, M.~Li, Y.~Li, M.~Lin, N.~Wang, M.~Wang, T.~Xiao, B.~Xu, C.~Zhang, and
@@ -51,6 +115,11 @@ T.~Chen, M.~Li, Y.~Li, M.~Lin, N.~Wang, M.~Wang, T.~Xiao, B.~Xu, C.~Zhang, and
 \newblock Mxnet: A flexible and efficient machine learning library for
   heterogeneous distributed systems.
 \newblock {\em arXiv preprint arXiv:1512.01274}, 2015.
+
+\bibitem{collobert2011torch7}
+R.~Collobert, K.~Kavukcuoglu, and C.~Farabet.
+\newblock Torch7: A matlab-like environment for machine learning.
+\newblock In {\em BigLearn, NIPS Workshop}, number EPFL-CONF-192376, 2011.
 
 \bibitem{dean2012large}
 J.~Dean, G.~Corrado, R.~Monga, K.~Chen, M.~Devin, M.~Mao, A.~Senior, P.~Tucker,
@@ -64,6 +133,19 @@ J.~Donahue, Y.~Jia, O.~Vinyals, J.~Hoffman, N.~Zhang, E.~Tzeng, and T.~Darrell.
 \newblock Decaf: A deep convolutional activation feature for generic visual
   recognition.
 \newblock In {\em ICML}, pages 647--655, 2014.
+
+\bibitem{iandola2015firecaffe}
+F.~N. Iandola, K.~Ashraf, M.~W. Moskewicz, and K.~Keutzer.
+\newblock Firecaffe: near-linear acceleration of deep neural network training
+  on compute clusters.
+\newblock {\em arXiv preprint arXiv:1511.00175}, 2015.
+
+\bibitem{jia2014caffe}
+Y.~Jia, E.~Shelhamer, J.~Donahue, S.~Karayev, J.~Long, R.~Girshick,
+  S.~Guadarrama, and T.~Darrell.
+\newblock Caffe: Convolutional architecture for fast feature embedding.
+\newblock In {\em Proceedings of the 22nd ACM international conference on
+  Multimedia}, pages 675--678. ACM, 2014.
 
 \bibitem{Landset2015}
 S.~Landset, T.~M. Khoshgoftaar, A.~N. Richter, and T.~Hasanin.
@@ -83,8 +165,20 @@ J.~Schmidhuber.
 \newblock Deep learning in neural networks: An overview.
 \newblock {\em Neural Networks}, 61:85--117, 2015.
 
+\bibitem{szegedy2015going}
+C.~Szegedy, W.~Liu, Y.~Jia, P.~Sermanet, S.~Reed, D.~Anguelov, D.~Erhan,
+  V.~Vanhoucke, and A.~Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 1--9, 2015.
+
 \bibitem{trask2015modeling}
 A.~Trask, D.~Gilmore, and M.~Russell.
 \newblock Modeling order in neural word embeddings at scale.
+
+\bibitem{yu2015computational}
+D.~Yu, K.~Yao, and Y.~Zhang.
+\newblock The computational network toolkit [best of the web].
+\newblock {\em IEEE Signal Processing Magazine}, 32(6):123--126, 2015.
 
 \end{thebibliography}

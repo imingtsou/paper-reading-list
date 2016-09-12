@@ -1,0 +1,79 @@
+\begin{thebibliography}{10}
+
+\bibitem{donahue2014decaf}
+J.~Donahue, Y.~Jia, O.~Vinyals, J.~Hoffman, N.~Zhang, E.~Tzeng, and T.~Darrell,
+  ``Decaf: A deep convolutional activation feature for generic visual
+  recognition.,'' in {\em ICML}, pp.~647--655, 2014.
+
+\bibitem{schmidhuber2015deep}
+J.~Schmidhuber, ``Deep learning in neural networks: An overview,'' {\em Neural
+  Networks}, vol.~61, pp.~85--117, 2015.
+
+\bibitem{trask2015modeling}
+A.~Trask, D.~Gilmore, and M.~Russell, ``Modeling order in neural word
+  embeddings at scale,''
+
+\bibitem{dean2012large}
+J.~Dean, G.~Corrado, R.~Monga, K.~Chen, M.~Devin, M.~Mao, A.~Senior, P.~Tucker,
+  K.~Yang, Q.~V. Le, {\em et~al.}, ``Large scale distributed deep networks,''
+  in {\em Advances in neural information processing systems}, pp.~1223--1231,
+  2012.
+
+\bibitem{DBLP:journals/corr/BahrampourRSS15}
+S.~Bahrampour, N.~Ramakrishnan, L.~Schott, and M.~Shah, ``Comparative study of
+  caffe, neon, theano, and torch for deep learning,'' {\em CoRR},
+  vol.~abs/1511.06435, 2015.
+
+\bibitem{DBLP:journals/corr/AbadiABBCCCDDDG16}
+M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
+  A.~Davis, J.~Dean, M.~Devin, S.~Ghemawat, I.~J. Goodfellow, A.~Harp,
+  G.~Irving, M.~Isard, Y.~Jia, R.~J{\'{o}}zefowicz, L.~Kaiser, M.~Kudlur,
+  J.~Levenberg, D.~Man{\'{e}}, R.~Monga, S.~Moore, D.~G. Murray, C.~Olah,
+  M.~Schuster, J.~Shlens, B.~Steiner, I.~Sutskever, K.~Talwar, P.~A. Tucker,
+  V.~Vanhoucke, V.~Vasudevan, F.~B. Vi{\'{e}}gas, O.~Vinyals, P.~Warden,
+  M.~Wattenberg, M.~Wicke, Y.~Yu, and X.~Zheng, ``Tensorflow: Large-scale
+  machine learning on heterogeneous distributed systems,'' {\em CoRR},
+  vol.~abs/1603.04467, 2016.
+
+\bibitem{Itera38:online}
+``Iterative reduce with dl4j on hadoop and spark - deeplearning4j: Open-source,
+  distributed deep learning for the jvm.''
+  \url{http://deeplearning4j.org/iterativereduce}.
+\newblock (Accessed on 07/26/2016).
+
+\bibitem{ND4J'34:online}
+``Nd4j's benchmarking tool n-dimensional scientific computing for java.''
+  \url{http://nd4j.org/benchmarking}.
+\newblock (Accessed on 07/26/2016).
+
+\bibitem{chen2015mxnet}
+T.~Chen, M.~Li, Y.~Li, M.~Lin, N.~Wang, M.~Wang, T.~Xiao, B.~Xu, C.~Zhang, and
+  Z.~Zhang, ``Mxnet: A flexible and efficient machine learning library for
+  heterogeneous distributed systems,'' {\em arXiv preprint arXiv:1512.01274},
+  2015.
+
+\bibitem{candel2015deep}
+A.~Candel, V.~Parmar, E.~LeDell, and A.~Arora, ``Deep learning with h2o,''
+  2015.
+
+\bibitem{Landset2015}
+S.~Landset, T.~M. Khoshgoftaar, A.~N. Richter, and T.~Hasanin, ``A survey of
+  open source tools for machine learning with big data in the hadoop
+  ecosystem,'' {\em Journal of Big Data}, vol.~2, no.~1, pp.~1--36, 2015.
+
+\bibitem{recht2011hogwild}
+B.~Recht, C.~Re, S.~Wright, and F.~Niu, ``Hogwild: A lock-free approach to
+  parallelizing stochastic gradient descent,'' in {\em Advances in Neural
+  Information Processing Systems}, pp.~693--701, 2011.
+
+\bibitem{Large52:online}
+``Large scale distributed deep learning on hadoop... | hadoop at yahoo.''
+  \url{http://yahoohadoop.tumblr.com/post/129872361846/large-scale-distributed-deep-learning-on-hadoop}.
+\newblock (Accessed on 07/23/2016).
+
+\bibitem{Caffe27:online}
+``Caffeonspark open sourced for distributed deep... | hadoop at yahoo.''
+  \url{http://yahoohadoop.tumblr.com/post/139916563586/caffeonspark-open-sourced-for-distributed-deep}.
+\newblock (Accessed on 07/23/2016).
+
+\end{thebibliography}

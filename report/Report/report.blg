@@ -3,57 +3,64 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: abbrv.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "Lamport:LaTeX"
-Warning--I didn't find a database entry for "bowman:reasoning"
-Warning--I didn't find a database entry for "clark:pct"
-Warning--I didn't find a database entry for "braams:babel"
-Warning--I didn't find a database entry for "herlihy:methodology"
-Warning--I didn't find a database entry for "salas:calculus"
+Warning--to sort, need author or key in Tenso77:online
+Warning--to sort, need author or key in Multi35:online
+Warning--to sort, need author or key in Power24:online
+Warning--to sort, need author or key in AnInt85:online
 Warning--to sort, need author or key in Itera38:online
 Warning--to sort, need author or key in ND4J'34:online
 Warning--to sort, need author or key in Large52:online
 Warning--to sort, need author or key in Caffe27:online
+Warning--to sort, need author or key in mila-81:online
+Warning--to sort, need author or key in Using61:online
+Warning--to sort, need author or key in fbcun49:online
+Warning--to sort, need author or key in torch27:online
+Warning--to sort, need author or key in DIGIT88:online
+Warning--to sort, need author or key in GP1004:online
+Warning--empty journal in catanzaro2013deep
+Warning--empty year in catanzaro2013deep
+Warning--there's a number but no series in collobert2011torch7
 Warning--empty booktitle in trask2015modeling
 Warning--empty year in trask2015modeling
-You've used 14 entries,
+You've used 30 entries,
             2118 wiz_defined-function locations,
-            577 strings with 7304 characters,
-and the built_in function-call counts, 6033 in all, are:
-= -- 526
-> -- 473
-< -- 3
-+ -- 191
-- -- 176
-* -- 484
-:= -- 1004
-add.period$ -- 40
-call.type$ -- 14
-change.case$ -- 129
+            642 strings with 10007 characters,
+and the built_in function-call counts, 10507 in all, are:
+= -- 946
+> -- 673
+< -- 7
++ -- 277
+- -- 244
+* -- 752
+:= -- 1649
+add.period$ -- 88
+call.type$ -- 30
+change.case$ -- 210
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 171
-empty$ -- 367
-format.name$ -- 176
-if$ -- 1212
+cite$ -- 49
+duplicate$ -- 339
+empty$ -- 785
+format.name$ -- 244
+if$ -- 2211
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 9
-newline$ -- 71
-num.names$ -- 20
-pop$ -- 170
+int.to.str$ -- 30
+missing$ -- 15
+newline$ -- 150
+num.names$ -- 34
+pop$ -- 336
 preamble$ -- 1
-purify$ -- 115
+purify$ -- 180
 quote$ -- 0
-skip$ -- 134
+skip$ -- 253
 stack$ -- 0
-substring$ -- 213
-swap$ -- 46
-text.length$ -- 3
+substring$ -- 391
+swap$ -- 87
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
-warning$ -- 6
-while$ -- 33
-width$ -- 16
-write$ -- 140
-(There were 12 warnings)
+type$ -- 120
+warning$ -- 19
+while$ -- 56
+width$ -- 32
+write$ -- 292
+(There were 19 warnings)
